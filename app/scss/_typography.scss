@@ -1,0 +1,44 @@
+/* 
+    Typography
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  // Base font size
+  --text-base-size: 1em;
+
+  // Types scale
+  --text-scale-ratio: 1.3;
+  --text-xs: calc((1em / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-md: calc(
+    var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio)
+  );
+  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+  --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+}
+
+.xs {
+  font-size: var(--text-xs);
+}
+.sm {
+  font-size: var(--text-sm);
+}
+.md {
+  font-size: var(--text-md);
+}
+.lg {
+  font-size: var(--text-lg);
+}
+.xl {
+  font-size: var(--text-xl);
+}
+.xxl {
+  font-size: var(--text-xxl);
+}
+.xxxl {
+  font-size: var(--text-xxxl);
+}

@@ -1,0 +1,39 @@
+/* 
+    Utility 
+*/
+
+.up-case{
+    text-transform: uppercase;
+}
+
+.letter-space{
+    letter-spacing: 3px;
+}
+
+.sec{
+    color: var(--sec-text-color);
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.up-before::before{
+    display: inline-block;
+    content : url('../../images/icon-up.svg');
+    transform: translate(-50%,-20%);
+}
+
+.down-before::before{
+    display: inline-block;
+    content : url('../../images/icon-down.svg');
+    transform: translate(-50%,-20%);
+}
+
+.green{
+    color: var(--lime-green);
+}
+
+.red{
+    color: var(--bright-red);
+}

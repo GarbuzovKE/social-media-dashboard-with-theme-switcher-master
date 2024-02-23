@@ -1,0 +1,3 @@
+- First project using Scss
+- Helpful article about themes and typography https://habr.com/ru/articles/456302/
+- Gradient border with border-radius: https://www.youtube.com/watch?v=rmVa2BKTSKA 6:36
