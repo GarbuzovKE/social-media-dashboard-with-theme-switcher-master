@@ -1,3 +1,5 @@
 - First project using Scss
 - Helpful article about themes and typography https://habr.com/ru/articles/456302/
 - Gradient border with border-radius: https://www.youtube.com/watch?v=rmVa2BKTSKA 6:36
+- Opacity to a css color variable https://stackoverflow.com/questions/40010597/how-do-i-apply-opacity-to-a-css-color-variable
+- Light/dark theme toggle https://www.youtube.com/watch?v=xodD0nw2veQ

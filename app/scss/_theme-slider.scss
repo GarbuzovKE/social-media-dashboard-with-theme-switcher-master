@@ -1,0 +1,36 @@
+/* 
+    Theme slider
+*/
+
+.theme-slider__label {
+  display: inline-block;
+  background: var(--toggle-color);
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+}
+
+.theme-slider__ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.theme-slider__checkbox:checked + .theme-slider__label .theme-slider__ball {
+  transform: translateX(24px);
+}
+
+.theme-slider__checkbox {
+  opacity: 0;
+  position: absolute;
+  left: -1000px;
+}
